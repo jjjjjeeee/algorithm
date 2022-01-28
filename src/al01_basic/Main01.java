@@ -20,7 +20,7 @@ public class Main01 {
 		Scanner s = new Scanner(System.in);
 		
 		int n = Integer.parseInt(s.nextLine());
-		String data[] = s.nextLine().split(" ");
+		String data[] = s.nextLine().split(" "); // 공백을 기준으로 배열 생성
 		
 		String r[] = new String[n]; // 윤년, 평년의 결과 저장할 배열
 		

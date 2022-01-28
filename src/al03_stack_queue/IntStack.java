@@ -7,7 +7,7 @@ public class IntStack {
 	int point; // stack의 채워진 값의 위치+1
 	
 	IntStack(){}
-	IntStack(int max){
+	public IntStack(int max){
 		capacity = max; // 값을 저장할 수 있는 크기
 		point = 0;
 		stk = new int[max];
